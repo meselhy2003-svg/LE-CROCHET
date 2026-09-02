@@ -2403,21 +2403,28 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 16px;
+  width: 100%;
 }
 
 .cafe-back-btn {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  font-size: 0.88rem;
+  justify-content: center;
+  gap: 9px;
+  font-size: 0.92rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
   color: var(--text-secondary);
   background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  padding: 8px 18px;
-  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 10px 22px;
+  border-radius: 24px;
   cursor: pointer;
+  white-space: nowrap;
   transition: all 0.3s ease;
 }
+
 
 .cafe-back-btn:hover {
   color: #ffffff;
@@ -2709,44 +2716,70 @@ section {
 }
 
 @media (max-width: 768px) {
+  .cafe-menu-topbar {
+    padding: 13px 0;
+  }
+  .cafe-topbar-inner {
+    gap: 12px;
+  }
   .cafe-back-btn {
-    font-size: 0.82rem !important;
-    padding: 8px 14px !important;
-    gap: 7px !important;
+    font-size: 0.88rem !important;
+    padding: 9px 16px !important;
+    gap: 8px !important;
     letter-spacing: 0.03em !important;
+    border-radius: 22px !important;
   }
   .cafe-back-btn svg {
-    width: 15px !important;
-    height: 15px !important;
+    width: 16px !important;
+    height: 16px !important;
+    flex-shrink: 0;
   }
   .cafe-brand-badge {
-    gap: 6px !important;
+    gap: 7px !important;
+    flex-shrink: 0;
   }
   .cafe-brand-name {
-    font-size: 0.82rem !important;
+    font-size: 0.84rem !important;
     letter-spacing: 0.03em !important;
   }
   .cafe-brand-logo {
     height: 22px !important;
     width: 22px !important;
+    flex-shrink: 0;
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 440px) {
+  .cafe-menu-topbar {
+    padding: 11px 0;
+  }
+  .cafe-menu-topbar .container {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .cafe-topbar-inner {
+    gap: 10px;
+    justify-content: space-between;
+  }
   .cafe-back-btn {
-    font-size: 0.76rem !important;
-    padding: 7px 11px !important;
-    gap: 5px !important;
+    font-size: 0.82rem !important;
+    padding: 8px 13px !important;
+    gap: 6px !important;
+    border-radius: 20px !important;
+  }
+  .cafe-back-btn svg {
+    width: 15px !important;
+    height: 15px !important;
   }
   .cafe-brand-name {
-    font-size: 0.75rem !important;
+    font-size: 0.76rem !important;
   }
-
   .cafe-brand-logo {
-    height: 19px !important;
-    width: 19px !important;
+    height: 20px !important;
+    width: 20px !important;
   }
 }
+
 
 
 
