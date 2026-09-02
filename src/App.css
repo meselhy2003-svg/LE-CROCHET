@@ -2719,12 +2719,16 @@ section {
     width: 14px !important;
     height: 14px !important;
   }
+  .cafe-brand-badge {
+    gap: 6px !important;
+  }
   .cafe-brand-name {
-    font-size: 1rem !important;
+    font-size: 0.82rem !important;
+    letter-spacing: 0.03em !important;
   }
   .cafe-brand-logo {
-    height: 28px !important;
-    width: 28px !important;
+    height: 22px !important;
+    width: 22px !important;
   }
 }
 
@@ -2735,9 +2739,14 @@ section {
     gap: 4px !important;
   }
   .cafe-brand-name {
-    font-size: 0.88rem !important;
+    font-size: 0.75rem !important;
+  }
+  .cafe-brand-logo {
+    height: 19px !important;
+    width: 19px !important;
   }
 }
+
 
 
 
