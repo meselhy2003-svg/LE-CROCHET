@@ -2388,9 +2388,8 @@ section {
   color: var(--text-primary);
   position: relative;
 }
-
 .cafe-menu-topbar {
-  padding: 16px 0;
+  padding: 24px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   background: rgba(5, 12, 9, 0.94);
   backdrop-filter: blur(14px);
@@ -2403,7 +2402,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 16px;
+  gap: 20px;
   width: 100%;
 }
 
@@ -2411,20 +2410,19 @@ section {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 9px;
-  font-size: 0.92rem;
+  gap: 10px;
+  font-size: 0.98rem;
   font-weight: 500;
   letter-spacing: 0.03em;
   color: var(--text-secondary);
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 10px 22px;
-  border-radius: 24px;
+  padding: 12px 26px;
+  border-radius: 26px;
   cursor: pointer;
   white-space: nowrap;
   transition: all 0.3s ease;
 }
-
 
 .cafe-back-btn:hover {
   color: #ffffff;
@@ -2436,21 +2434,22 @@ section {
 .cafe-brand-badge {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
 .cafe-brand-logo {
-  height: 34px;
-  width: 34px;
+  height: 42px;
+  width: 42px;
   object-fit: contain;
 }
 
 .cafe-brand-name {
   font-family: var(--font-serif);
-  font-size: 1.15rem;
+  font-size: 1.3rem;
   letter-spacing: 0.06em;
   color: #ffffff;
 }
+
 
 
 .cafe-hero-header {
@@ -2717,14 +2716,14 @@ section {
 
 @media (max-width: 768px) {
   .cafe-menu-topbar {
-    padding: 13px 0;
+    padding: 18px 0;
   }
   .cafe-topbar-inner {
-    gap: 12px;
+    gap: 14px;
   }
   .cafe-back-btn {
-    font-size: 0.88rem !important;
-    padding: 9px 16px !important;
+    font-size: 0.90rem !important;
+    padding: 10px 18px !important;
     gap: 8px !important;
     letter-spacing: 0.03em !important;
     border-radius: 22px !important;
@@ -2735,23 +2734,23 @@ section {
     flex-shrink: 0;
   }
   .cafe-brand-badge {
-    gap: 7px !important;
+    gap: 8px !important;
     flex-shrink: 0;
   }
   .cafe-brand-name {
-    font-size: 0.84rem !important;
+    font-size: 0.90rem !important;
     letter-spacing: 0.03em !important;
   }
   .cafe-brand-logo {
-    height: 22px !important;
-    width: 22px !important;
+    height: 26px !important;
+    width: 26px !important;
     flex-shrink: 0;
   }
 }
 
 @media (max-width: 440px) {
   .cafe-menu-topbar {
-    padding: 11px 0;
+    padding: 15px 0;
   }
   .cafe-menu-topbar .container {
     padding-left: 14px;
@@ -2762,8 +2761,8 @@ section {
     justify-content: space-between;
   }
   .cafe-back-btn {
-    font-size: 0.82rem !important;
-    padding: 8px 13px !important;
+    font-size: 0.84rem !important;
+    padding: 9px 14px !important;
     gap: 6px !important;
     border-radius: 20px !important;
   }
@@ -2772,13 +2771,14 @@ section {
     height: 15px !important;
   }
   .cafe-brand-name {
-    font-size: 0.76rem !important;
+    font-size: 0.82rem !important;
   }
   .cafe-brand-logo {
-    height: 20px !important;
-    width: 20px !important;
+    height: 23px !important;
+    width: 23px !important;
   }
 }
+
 
 
 
