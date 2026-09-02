@@ -1,0 +1,21 @@
+node_modules
+.git
+.vercel
+dist
+dist-ssr
+BEST ITEM section
+FEEDBACK SECTION
+HERO SECTION
+LOGO
+MOBILE VIEW HERO
+VIBES SECTION
+WORKSTATION  SECTION
+public/BEST ITEM section
+public/FEEDBACK SECTION
+public/HERO SECTION
+public/MOBILE VIEW HERO
+public/VIBES SECTION
+css
+js
+server.js
+start.bat

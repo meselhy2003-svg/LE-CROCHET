@@ -1,0 +1,99 @@
+/* ==========================================================================
+   LE CROCHET - Global Variables & Reset
+   ========================================================================== */
+
+:root {
+  /* Color Palette */
+  --bg-primary: #0a0e0c;
+  --bg-secondary: #111714;
+  --bg-card: #141f1a;
+  --bg-card-hover: #1b2a24;
+  --bg-subtle: #20332b;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-accent: rgba(4, 51, 35, 0.55);
+
+  --text-primary: #fcfbf9;
+  --text-secondary: #c2bdb7;
+  --text-muted: #8a837c;
+
+  /* Emerald #043323 Signature Brand Accents (Replaced Bronze/Terracotta) */
+  --accent-terracotta: #043323;
+  --accent-terracotta-light: #1b825d;
+  --accent-emerald: #043323;
+  --accent-emerald-light: #1b825d;
+  --accent-emerald-subtle: #0d523a;
+  --accent-gold: #e5be7a;
+  --accent-sage: #9bb09e;
+  --accent-rose: #e6b1a3;
+
+  /* Typography */
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Shadows & Glassmorphism */
+  --glass-bg: rgba(10, 20, 16, 0.82);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-blur: blur(16px);
+  --shadow-sm: 0 4px 16px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 30px rgba(4, 51, 35, 0.45);
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Spacing */
+  --container-max: 1320px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 24px;
+}
