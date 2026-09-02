@@ -2,6 +2,7 @@
   "name": "le-crochet-react",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://le-crochet.vercel.app",
   "type": "module",
   "scripts": {
     "dev": "vite",
