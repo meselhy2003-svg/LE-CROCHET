@@ -31,7 +31,7 @@ export default function Footer() {
           {/* Social Icons Row: Instagram, Facebook, WhatsApp */}
           <div className="minimal-footer-socials" aria-label="Social Channels">
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/lecafecrochet"
               target="_blank"
               rel="noopener noreferrer"
               className="minimal-footer-social-btn"
@@ -42,7 +42,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/LECAFECROCHET"
               target="_blank"
               rel="noopener noreferrer"
               className="minimal-footer-social-btn"
