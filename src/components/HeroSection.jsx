@@ -28,6 +28,7 @@ export default function HeroSection() {
           preload="auto"
         >
           <source src="/videos/hero-mobile.mp4" type="video/mp4" />
+          <source src="/MOBILE%20VIEW%20HERO/Video%20Project%2017.mp4" type="video/mp4" />
           Your browser does not support HTML5 video playback.
         </video>
       </div>
